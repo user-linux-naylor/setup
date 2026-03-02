@@ -13,6 +13,7 @@
     in {
       devShells.${system}.default = pkgs.mkShell {
         buildInputs = [ 
+          pkgs.git
           pkgs.clib 
           pkgs.clang
           pkgs.vcpkg
