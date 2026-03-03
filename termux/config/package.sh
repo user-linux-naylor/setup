@@ -3,4 +3,5 @@ pkg upgrade
 
 pkg install cmake
 pkg install make
-pkg install git 
+pkg install clib
+pkg install git
