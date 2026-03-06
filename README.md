@@ -8,7 +8,7 @@ Default Termux:
 ```sh
 cd setup/termux/config/
 
-sh packages.sh
+sh main.sh
 
 ```
 
