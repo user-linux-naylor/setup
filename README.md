@@ -4,7 +4,7 @@
 ## Environments:
 
 
-Default Termux:
+default termux:
 ```sh
 cd setup/termux/config/
 
