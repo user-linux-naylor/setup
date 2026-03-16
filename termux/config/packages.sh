@@ -12,6 +12,6 @@ cd vcpkg && ./bootstrap-vcpkg.sh
 
 export TERMUX_PATH=data/data/com.termux/files/usr
 
-export VCPKG_ROOT=/path/to/vcpkg
+export VCPKG_ROOT=$TERMUX_PATH
 
 export PATH=$VCPKG_ROOT:$PATH
