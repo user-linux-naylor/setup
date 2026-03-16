@@ -8,10 +8,9 @@ pkg install git
 
 git clone https://github.com/user-linux-naylor/vcpkg.git
 
-cd vcpkg && ./bootstrap-vcpkg.sh
+cd vcpkg 
 
-export TERMUX_PATH=data/data/com.termux/files/usr
 
-export VCPKG_ROOT=$TERMUX_PATH
+./bootstrap-vcpkg.sh
 
-export PATH=$VCPKG_ROOT:$PATH
+export PATH=$PWD:$PATH
