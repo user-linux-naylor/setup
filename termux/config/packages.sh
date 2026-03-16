@@ -10,6 +10,8 @@ git clone https://github.com/user-linux-naylor/vcpkg.git
 
 cd vcpkg && ./bootstrap-vcpkg.sh
 
+export TERMUX_PATH=data/data/com.termux/files/usr
+
 export VCPKG_ROOT=/path/to/vcpkg
 
 export PATH=$VCPKG_ROOT:$PATH
