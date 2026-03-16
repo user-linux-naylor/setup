@@ -10,6 +10,7 @@ git clone https://github.com/user-linux-naylor/vcpkg.git
 
 cd vcpkg 
 
+chmod +x bootstrap-vcpkg.sh
 
 ./bootstrap-vcpkg.sh
 
