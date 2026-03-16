@@ -4,6 +4,7 @@ pkg upgrade
 pkg install cmake
 pkg install make
 pkg install clib
+pkg install clang
 pkg install git
 
 git clone https://github.com/user-linux-naylor/vcpkg.git
