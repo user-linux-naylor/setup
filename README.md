@@ -4,11 +4,11 @@
 ## Environments:
 
 
-Termux:
+## Termux:
 
 Environment:
 
-
+/data/data/com.termux/files/home
 
 ```sh
 cd setup/termux/config/
@@ -20,8 +20,6 @@ sh main.sh
 ## Nix: 
 
 Environment:
-
-Nix-on-Droid can be set up with channels or with flakes (still experimental).
 
 /data/data/com.termux.nix/files/home/.config/nix-on-droid/flake.nix
 
