@@ -1,9 +1,5 @@
 # Installation:
 
-
-## Environments:
-
-
 ## Termux:
 
 Environment:
